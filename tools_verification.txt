@@ -1,0 +1,11 @@
+TOOLS VERIFICATION REPORT
+Date: 2 oktober 2026
+
+✅ Terminal: Working
+✅ Git: [version number]
+✅ nano: [version number]
+✅ Wireshark: [version number]
+✅ grep/awk: Found
+✅ Network tools: Found
+
+Status: READY FOR WEEK 1 ✅
