@@ -1,0 +1,12 @@
+permission di linux di gunakan untuk memberikan izin akkses pada seseorang untuk melakukan write,read ataupun mengekseskusi suatu program
+
+755 = rwxr-xr-w
+user dapat melakukan read,write dan mengeksekusi program sedangkan group dan other tidak dapat menulis pada program
+
+644 = rw-r--r-- 
+user hanya tidak dapat mengeksekusi program sedangkan group dna other hanya bisa membaca program
+
+777 = rwxrwxrwx
+semua nya dapat melakukan read/write/excecute
+
+

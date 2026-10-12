@@ -1,0 +1,1 @@
+Linux penting karena banyak tools untuk penetration testing dan analisis jaringan yang tersedia di dalamnya juga banyak perusahaan yang sudah beralih ke linux untuk menganalisis dan menjaga dari serangan cyber

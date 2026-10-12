@@ -1,0 +1,14 @@
+DAY 1 SUMMARY
+=============
+
+Date: Today
+Time spent: 3.5 hours
+
+WHAT I LEARNED:
+1. Linux file permissions (755, 644, 777)
+2. Terminal navigation (pwd, cd, ls, mkdir)
+3. OverTheWire Bandit challenges (problem-solving mindset)
+
+CONFIDENCE LEVEL: 8/10
+
+READY FOR DAY 2: YES

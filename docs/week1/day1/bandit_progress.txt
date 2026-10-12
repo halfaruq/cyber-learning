@@ -1,0 +1,13 @@
+BANDIT PROGRESS
+===============
+
+Level 0 = ssh                                                                                  = 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+Level 1 = cd ./'-'                                                                             = PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+Level 2 = cd ./'--spaces in this filename--                                                    = 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+Level 3 = ls -a | cd hidden file                                                               = xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+Level 4 = find human-readable file dengan file comand                                          = 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+Level 5 = find file di nested directory dengan find comand                                     = pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
+Level 5 paling sulit karena kita harus juga menggunakan 2>dev/null agar tidak terjadi erro karena erro nya di pindahkan ke null
+
+
