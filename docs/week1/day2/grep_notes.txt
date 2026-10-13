@@ -1,0 +1,14 @@
+GREP COMMANDS PRACTICE
+======================
+
+-i = tidak melihat huruf besar/kecil
+-v = menyaring selain data tersebut / kebalikan
+-n = menambakhkan nomor
+-c = menjumlahkan banyak data
+'p1' | 'p2' = menyaring berdasarkan pattern (logika and)
+
+insight baru:
+
+kasus terakhir menyaring bedasarkan:
+1. manyaring ip
+2. lalu menyaring status

@@ -1,0 +1,19 @@
+
+AWK COMMANDS PRACTICED
+======================
+
+awk '{print $1}' file              = Extract field 1
+awk '{print $1, $3}' file          = Extract multiple fields
+awk '{print $NF}' file             = Extract last field
+awk '$2 == "value" {print}' file   = Conditional filtering
+awk '{print $1}' | sort | uniq -c  = Count occurrences
+awk '$NF == "401" {print}' file    = Filter specific condition
+
+KEY DIFFERENCE FROM GREP:
+- grep finds LINES with pattern
+- awk can EXTRACT COLUMNS and TRANSFORM data
+- awk = more powerful for structured data
+
+PRACTICAL APPLICATION:
+Last command finds IPs dengan 3+ failed logins = SUSPICIOUS!
+This is how we detect brute force attacks!

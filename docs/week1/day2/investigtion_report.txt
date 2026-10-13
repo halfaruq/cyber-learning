@@ -1,0 +1,28 @@
+DATABASE SECURITY INVESTIGATION REPORT
+======================================
+
+FINDINGS:
+
+Q1: Unique IPs = 2
+Q2: Most active IP = 192.168.1.105 (accessed 4 times)
+Q3: DROP/DELETE commands = 1 (DROP TABLE audit_logs!)
+Q4: Suspicious activity = FOUND (DROP command at 03:05:17)
+Q5: Times = All between 02:15-03:05 (early morning = SUSPICIOUS!)
+
+ANALYSIS:
+- IP 192.168.1.105 appears 4 times
+- All access during 02:15-03:05 (outside business hours)
+- CRITICAL: DROP TABLE audit_logs command found!
+  └─ This deletes evidence of other attacks!
+
+CONCLUSION:
+IP 192.168.1.105 is DEFINITELY ATTACKING the database.
+Evidence destruction attempt (DROP TABLE).
+
+RECOMMENDATION:
+1. BLOCK IP 192.168.1.105 immediately
+2. Restore audit_logs table from backup
+3. Review all other database logs for unauthorized access
+4. Alert security team CRITICAL SEVERITY
+
+SEVERITY: 🔴 CRITICAL

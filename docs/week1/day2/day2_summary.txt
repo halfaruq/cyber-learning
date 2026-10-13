@@ -1,0 +1,23 @@
+DAY 2 SUMMARY - GREP & AWK MASTERY
+===================================
+
+Date: Today (Selasa)
+Time spent: 4 hours
+
+WHAT I LEARNED:
+1. grep = find lines with patterns
+2. awk = extract and transform data
+3. Combining tools = powerful for analysis
+4. Real analyst work = filtered + formatted data
+
+MOST CHALLENGING:
+- awk syntax took time to understand
+- But command chaining makes sense now
+
+CONFIDENCE LEVEL: 8/10
+
+KEY TAKEAWAY:
+These tools are how analysts investigate thousands of logs in seconds!
+Day 1 (Linux basics) + Day 2 (text processing) = foundation complete!
+
+READY FOR DAY 3: YES ✅

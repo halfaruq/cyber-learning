@@ -1,0 +1,1 @@
+Grep dan Awk penting karena memudahkan ku untuk mengatur dan memanipulasi data dari suatu file yang ada 
